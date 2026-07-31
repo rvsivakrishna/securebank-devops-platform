@@ -1,0 +1,28 @@
+# Python
+__pycache__
+*.pyc
+.env
+
+
+# Kubernetes
+*.secret.yaml
+
+
+# Docker
+*.tar
+
+
+# Terraform
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+
+
+# IDE
+.vscode
+.idea
+
+
+# Logs
+*.log
+
