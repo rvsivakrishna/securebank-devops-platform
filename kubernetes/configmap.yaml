@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: securebank-config
+  namespace: securebank
+
+data:
+  DB_HOST: mysql-service
+  DB_PORT: "3306"
+  DB_NAME: bankdb
+
+  BANK_NAME: SecureBank
+
+  LOG_LEVEL: INFO
